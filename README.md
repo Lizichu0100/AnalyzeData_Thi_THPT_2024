@@ -1,1 +1,3 @@
-Đây là project phân tích dữ liệu cho điểm thi của hơn 1 triệu thí sinh thi tốt nghiệp THPT năm 2024 và dự đoán điểm (ví dụ cho điểm toán) năm 2025. Chi tiết xem trên file .ipynb
+# Analyze data điểm thi của các thí sinh tốt nghiệp THPT năm 2024 và dự đoán điểm toán năm 2025.
+
+Dưới đây chỉ là sơ bộ về project, chi tiết hơn vui lòng xem trên file .ipynb.
