@@ -9,7 +9,7 @@
 
 Dưới đây chỉ là tóm tắt sơ bộ về project, chi tiết hơn vui lòng xem trên file AnalyzeData_Thi_THPT_2024.ipynb.
 
-Về data gốc, các bạn có thể lấy từ [J2TEAM](https://www.facebook.com/groups/j2team.community/permalink/2423907054608067/) hoặc trong thư mục raw_data của mình.
+Về data gốc, các bạn có thể lấy từ [J2TEAM](https://www.facebook.com/groups/j2team.community/permalink/2423907054608067/).
 
 ## BÀI LÀM
 ### 1. Load dữ liệu
