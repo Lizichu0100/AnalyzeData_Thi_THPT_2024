@@ -11,7 +11,8 @@ Dưới đây chỉ là tóm tắt sơ bộ về project, chi tiết hơn vui l�
 
 Về data gốc, các bạn có thể lấy từ [J2TEAM](https://www.facebook.com/groups/j2team.community/permalink/2423907054608067/) hoặc trong thư mục raw_data của mình.
 
-## 1. Load dữ liệu
+## BÀI LÀM
+### 1. Load dữ liệu
 Dữ liệu sẽ có dạng như sau, ở đây mình chỉ load vài thông tin:
 | sbd     | toán | ngữ văn | ngoại ngữ | vật lí | hóa học | sinh học | lịch sử | địa lí | gdcd | mã ngoại ngữ |
 |---------|------|---------|-----------|--------|---------|----------|---------|--------|------|--------------|
@@ -23,7 +24,7 @@ Dữ liệu sẽ có dạng như sau, ở đây mình chỉ load vài thông tin
 
 Sau đó mình sẽ tiền xử lý data trên xem có dòng nào bị thiếu hoặc trùng lặp không.
 
-## 2. Explore Data Analysis
+### 2. Explore Data Analysis
 Ta sẽ có những thống kê cơ bản từ data trên.
 
 **Biểu đồ phân phối môn toán:**
@@ -52,7 +53,7 @@ Nhận xét: Số thí sinh thi tổ hợp KHXH nhiều gấp đôi số thi sin
 
 Nhận xét: Điểm giữa các tổ hợp có vẻ cân bằng, điểm trung bình khoảng 20. Khối C00 có phần cao hơn so với các khối khác.
 
-## 3. Kiểm tra và loại bỏ các outliers
+### 3. Kiểm tra và loại bỏ các outliers
 Outliers là điểm ngoại lai có giá trị khác biệt so với mặt bằng chung của dữ liệu. Nếu có nhiều outliers sẽ ảnh hưởng đến quá trình phát triển mô hình máy học, dẫn đến sai sót, vì vậy nên ta cần phải giảm thiểu các outliers này.
 
 **Vẽ boxplot để xem thử điểm các môn học có outliers không:**
@@ -63,13 +64,13 @@ Nhận xét: Vậy là ngoại trừ môn ngoại ngữ, các môn còn lại đ
 **Dữ liệu sau khi được xử lý các outliers:**
 ![](./materials/boxplot2.png)
 
-## 4. Áp dụng các mô hình máy học (Ví dụ cho môn toán)
+### 4. Áp dụng các mô hình máy học (Ví dụ cho môn toán)
 Ở đây mình sẽ sử dụng mô hình hồi quy (regression) để dự đoán điểm toán THPT năm 2025. Mình sẽ sử dụng 3 model hồi quy đó là:
 - **XGBoost**: Thuật toán sử dụng decision tree nhưng cải thiện hiệu suất, tăng cường độ dốc (gradient boosting) hiệu quả và linh hoạt.
 - **Random Forest**: Thuật toán dựa trên phương pháp ensemble (tập hợp), sử dụng nhiều decision tree để phân tích dữ liệu, giảm thiểu hiện tượng overfitting
 - **MLPRegressor**: Thuật toán sử dụng mạng lưới neural networks để xử lý và dự đoán dữ liệu.
 
-## 5. So sánh các model, cho biết model nào tốt nhất và dự đoán kết quả.
+### 5. So sánh các model, cho biết model nào tốt nhất và dự đoán kết quả.
 Sau khi chạy 3 model trên, ta có thống kê về MSE, MAE và R^2 score như sau:
 
 | Model           | MSE       | MAE       | R^2      |
@@ -87,5 +88,5 @@ Biểu đồ so sánh các model:
 
 Nhận xét: Ba model này có hiệu suất tương đương nhau, nhưng MLPRegressor có hiệu suất tốt hơn một chút, nhưng thời gian chạy lại lâu nhất trong cả 3 model.
 
-## Lưu ý:
+## Lưu ý 2:
 Đây chỉ là minh họa cho một bài Data Analysis hoàn chỉnh, vui lòng không lấy điểm dự đoán này làm chuẩn vì các thuật toán chỉ dự đoán một cách tương đối và năm 2025 sẽ không thi tốt nghiệp THPT theo cấu trúc từ năm 2017 như trước nữa.
