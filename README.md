@@ -86,7 +86,7 @@ Mình sẽ lấy 80% tập train và 20% tập test để training model MLP Reg
 Biểu đồ so sánh các model:
 ![](./materials/mod_perform.png)
 
-Nhận xét: Ba model này có hiệu suất tương đương nhau, nhưng MLPRegressor có hiệu suất tốt hơn một chút, nhưng thời gian chạy lại lâu nhất trong cả 3 model.
+Nhận xét: Cae 3 model này có hiệu suất gần như tương đương nhau, nhưng MLPRegressor có hiệu suất tốt hơn một chút, nhưng thời gian chạy lại lâu nhất trong cả 3 model.
 
 ## Lưu ý 2:
 Đây chỉ là minh họa cho một bài Data Analysis hoàn chỉnh, vui lòng không lấy điểm dự đoán này làm chuẩn vì các thuật toán chỉ dự đoán một cách tương đối và năm 2025 sẽ không thi tốt nghiệp THPT theo cấu trúc từ năm 2017 như trước nữa.
