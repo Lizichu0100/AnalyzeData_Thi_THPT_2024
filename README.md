@@ -1,4 +1,4 @@
-# Phân tích dữ liệu điểm thi của các thí sinh tốt nghiệp THPT năm 2024 và dự đoán điểm toán năm 2025 bằng cách sử dụng các mô hình hồi quy
+# Phân tích dữ liệu điểm thi THPT 2024 và dự đoán điểm Toán 2025 bằng mô hình hồi quy
 ![](./materials/thumbnail.jpg)
 
 *Nguồn ảnh: [baodautu.vn](https://baodautu.vn/ky-thi-tot-nghiep-thpt-2024-la-mua-thi-cuoi-cung-thuc-hien-theo-chuong-trinh-cu-d218276.html)*
