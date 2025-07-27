@@ -7,7 +7,7 @@
 
 Đây là project do mình làm, cũng là ví dụ cho một bài Data Analysis hoàn chỉnh.
 
-Dưới đây chỉ là tóm tắt sơ bộ về project, chi tiết hơn vui lòng xem trên file AnalyzeData_Thi_THPT_2024.ipynb.
+Dưới đây chỉ là tóm tắt sơ bộ về project, chi tiết hơn vui lòng xem trên tải bản zip trên release, bên trong có file .ipynb.
 
 Về data gốc (raw data), các bạn có thể lấy từ [J2TEAM](https://www.facebook.com/groups/j2team.community/permalink/2423907054608067/).
 
